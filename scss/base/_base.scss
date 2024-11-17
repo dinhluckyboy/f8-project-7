@@ -1,0 +1,61 @@
+@use "../abstracts/colors";
+/* base scss */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button,
+input {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+%title {
+  color: colors.$title-color;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h1.title {
+  @extend %title;
+  font-size: 7rem;
+  line-height: 1.14em; /* 114.286% */
+}
+
+h2.title {
+  @extend %title;
+  font-size: 4.2rem;
+  line-height: 1.23em; /* 123.81% */
+}
+
+h3.title {
+  @extend %title;
+  font-size: 2rem;
+  line-height: 1.5em; /* 150% */
+}
+
+.desc {
+  color: colors.$desc-color;
+
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.67em; /* 166.667% */
+}

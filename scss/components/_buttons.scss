@@ -1,0 +1,39 @@
+@use "../abstracts/mixins";
+@use "../abstracts/colors";
+/* button scss  */
+
+%btn {
+  @include mixins.flexCenter;
+  width: 157px;
+  height: 64px;
+  border-radius: 8px;
+
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.67em; /* 166.667% */
+}
+
+.primary-btn {
+  @extend %btn;
+  background-color: colors.$primary-color;
+}
+
+.secondary-btn {
+  @extend %btn;
+  background: #201830;
+}
+
+.sign-up-btn {
+  width: 116px;
+  height: 48px;
+  border-radius: 6px;
+  background: #201830;
+
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75em; /* 175% */
+}

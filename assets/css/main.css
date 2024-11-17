@@ -1,0 +1,236 @@
+/* reset scss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* _colors scss */
+/* base scss */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button,
+input {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h3.title, h2.title, h1.title {
+  color: #201830;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h1.title {
+  font-size: 7rem;
+  line-height: 1.14em; /* 114.286% */
+}
+
+h2.title {
+  font-size: 4.2rem;
+  line-height: 1.23em; /* 123.81% */
+}
+
+h3.title {
+  font-size: 2rem;
+  line-height: 1.5em; /* 150% */
+}
+
+.desc {
+  color: #665f73;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.67em; /* 166.667% */
+}
+
+/* grid scss */
+/* responsive scss */
+/* _mixins scss */
+/* _variables scss */
+/* button scss  */
+.secondary-btn, .primary-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 157px;
+  height: 64px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.67em; /* 166.667% */
+}
+
+.primary-btn {
+  background-color: #936cdd;
+}
+
+.secondary-btn {
+  background: #201830;
+}
+
+.sign-up-btn {
+  width: 116px;
+  height: 48px;
+  border-radius: 6px;
+  background: #201830;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75em; /* 175% */
+}
+
+/* modals scss */
+/* main scss */
+
+/*# sourceMappingURL=main.css.map */
