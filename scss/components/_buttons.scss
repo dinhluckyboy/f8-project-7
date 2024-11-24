@@ -26,6 +26,8 @@
 }
 
 .sign-up-btn {
+  @include mixins.flexCenter;
+
   width: 116px;
   height: 48px;
   border-radius: 6px;

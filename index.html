@@ -91,10 +91,595 @@
     />
     <meta name="theme-color" content="#ffffff" />
   </head>
-  <body>
-    <h1>babble</h1>
-    <button class="primary-btn">click here</button>
-    <button class="secondary-btn">click here</button>
-    <button class="sign-up-btn">click here</button>
+  <body style="height: 10000px">
+    <!-- header  -->
+    <header class="header sticky">
+      <div class="container">
+        <div class="header-row">
+          <div class="header-logo">
+            <a href="#!">
+              <img src="./assets/img/Logo.png" alt="" class="logo-img" />
+            </a>
+          </div>
+          <div class="header-nav">
+            <div class="header-nav__item"><a href="#!">Episodes</a></div>
+            <div class="header-nav__item"><a href="#!">Trending</a></div>
+            <div class="header-nav__item">
+              <a href="#!">Category</a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+              >
+                <path
+                  d="M1 1L5 5L9 1"
+                  stroke="#665F73"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="header-nav__item"><a href="#!">Blog</a></div>
+          </div>
+          <div class="header-account">
+            <a href="#!" class="header-account__login">Log in</a>
+            <a href="#!" class="sign-up-btn">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- hero  -->
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="hero-media">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="./assets/img/hero-img1.jpg"
+                      alt=""
+                      class="hero-media__img hero-media__img-1"
+                    />
+                    <div class="hero-media__control">
+                      <img src="./assets/img/hero-icon-play.svg" alt="" />
+                      <img src="./assets/img/hero-icon-music.svg" alt="" />
+                    </div>
+                    <p class="hero-media__text">Podcast listener</p>
+                    <div class="hero-media__avt">
+                      <div class="hero-media__avt-item">
+                        <img src="./assets/img/hero-avt1.jpg" alt="" />
+                      </div>
+                      <div class="hero-media__avt-item">
+                        <img src="./assets/img/hero-avt2.jpg" alt="" />
+                      </div>
+                      <div class="hero-media__avt-item">
+                        <img src="./assets/img/hero-avt3.jpg" alt="" />
+                      </div>
+                      <div class="hero-media__avt-item">+50K</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./assets/img/hero-img2.jpg"
+                      alt=""
+                      class="hero-media__img hero-media__img-2"
+                    />
+                    <div class="hero-media__single">
+                      <p>Sarah Taylor</p>
+                      <p>Song podcaster</p>
+                    </div>
+                    <div class="hero-media__podcasts">
+                      <img src="./assets/img/spotify.png" alt="" />
+                      <img src="./assets/img/gg-poscasts.png" alt="" />
+                      <img src="./assets/img/ap-poscasts.png" alt="" />
+                    </div>
+                    <div class="hero-media__card">
+                      <p>500+</p>
+                      <p>Postcasts</p>
+                    </div>
+                    <div class="hero-media__decor">
+                      <img src="./assets/img/hero-decor.png" alt="" />
+                      <img src="./assets/img/hero-decor.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+              <div class="hero-info">
+                <img
+                  src="./assets/img/hero-title-decor.svg"
+                  alt=""
+                  class="hero-info__decor"
+                />
+                <h1 class="title hero__title">
+                  A new era of podcasting for you
+                </h1>
+                <p class="desc hero__desc">
+                  Rebuilt for simplicity and speed, so you can spend more time
+                  discovering and listening to great podcasts.
+                </p>
+                <div class="hero__cta">
+                  <button class="primary-btn">Get started</button>
+                  <a href="#!" class="hero__link"
+                    >Listen now
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                    >
+                      <circle cx="9" cy="9" r="9" fill="#201830" />
+                      <path
+                        d="M12.85 8.9134C12.9167 8.95189 12.9167 9.04811 12.85 9.0866L7.15 12.3775C7.08333 12.416 7 12.3679 7 12.2909L7 5.7091C7 5.63212 7.08333 5.58401 7.15 5.6225L12.85 8.9134Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- directories  -->
+      <section class="directories">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="directory-info">
+                <img
+                  src="./assets/img/directory-decor.svg"
+                  alt=""
+                  class="directory-info__decor"
+                />
+                <h2 class="title directory__title">
+                  We are in the top padcast directories
+                </h2>
+                <p class="desc directory__desc">
+                  Rebuilt for simplicity and speed, so you can spend more time
+                  discovering and listening to great podcasts. We are everywhere
+                  on the internet.
+                </p>
+                <button class="primary-btn directory-btn">
+                  Listen now
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                  >
+                    <circle cx="9" cy="9" r="9" fill="white" />
+                    <path
+                      d="M12.85 8.9134C12.9167 8.95189 12.9167 9.04811 12.85 9.0866L7.15 12.3775C7.08333 12.416 7 12.3679 7 12.2909L7 5.7091C7 5.63212 7.08333 5.58401 7.15 5.6225L12.85 8.9134Z"
+                      fill="#936CDD"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="directory-media">
+                <img src="./assets/img/directory-pocket-casts.svg" alt="" />
+                <img src="./assets/img/directory-ap-podcasts.svg" alt="" />
+                <img src="./assets/img/directory-spotify.svg" alt="" />
+                <img src="./assets/img/directory-soundcloud.svg" alt="" />
+                <img src="./assets/img/directory-gg-podcasts.svg" alt="" />
+                <div class="directory-media__decor"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- categoty  -->
+      <section class="category">
+        <div class="container">
+          <img
+            src="./assets/img/decor-title.svg"
+            alt=""
+            class="category__decor"
+          />
+          <h2 class="title category__title">Listen by category</h2>
+          <p class="desc category__desc">
+            Listen all kind of podcasts you like by exploring categories. Make
+            your day even better
+          </p>
+          <div class="category-gallery">
+            <div class="category-gallery__item">
+              <img
+                src="./assets/img/category-education.jpg"
+                alt=""
+                class="category__img"
+              />
+              <div class="category-info">
+                <h3 class="category-info__title">
+                  Education
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.5 7C13.5 10.5899 10.5899 13.5 7 13.5C3.41015 13.5 0.5 10.5899 0.5 7C0.5 3.41015 3.41015 0.5 7 0.5C10.5899 0.5 13.5 3.41015 13.5 7Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.77109 5L9.99966 7L7.77109 9M4 7.00036H10H4Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </h3>
+                <p class="category-info__desc">120 Podcasts Channel</p>
+              </div>
+            </div>
+            <div class="category-gallery__item">
+              <img
+                src="./assets/img/category-heath.jpg"
+                alt=""
+                class="category__img"
+              />
+              <div class="category-info">
+                <h3 class="category-info__title">
+                  Healthcare
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.5 7C13.5 10.5899 10.5899 13.5 7 13.5C3.41015 13.5 0.5 10.5899 0.5 7C0.5 3.41015 3.41015 0.5 7 0.5C10.5899 0.5 13.5 3.41015 13.5 7Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.77109 5L9.99966 7L7.77109 9M4 7.00036H10H4Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </h3>
+                <p class="category-info__desc">120 Podcasts Channel</p>
+              </div>
+            </div>
+            <div class="category-gallery__item">
+              <img
+                src="./assets/img/category-music.jpg"
+                alt=""
+                class="category__img"
+              />
+              <div class="category-info">
+                <h3 class="category-info__title">
+                  Music
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.5 7C13.5 10.5899 10.5899 13.5 7 13.5C3.41015 13.5 0.5 10.5899 0.5 7C0.5 3.41015 3.41015 0.5 7 0.5C10.5899 0.5 13.5 3.41015 13.5 7Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.77109 5L9.99966 7L7.77109 9M4 7.00036H10H4Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </h3>
+                <p class="category-info__desc">120 Podcasts Channel</p>
+              </div>
+            </div>
+            <div class="category-gallery__item">
+              <img
+                src="./assets/img/category-fashion.jpg"
+                alt=""
+                class="category__img"
+              />
+              <div class="category-info">
+                <h3 class="category-info__title">
+                  Fashion
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.5 7C13.5 10.5899 10.5899 13.5 7 13.5C3.41015 13.5 0.5 10.5899 0.5 7C0.5 3.41015 3.41015 0.5 7 0.5C10.5899 0.5 13.5 3.41015 13.5 7Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.77109 5L9.99966 7L7.77109 9M4 7.00036H10H4Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </h3>
+                <p class="category-info__desc">120 Podcasts Channel</p>
+              </div>
+            </div>
+            <div class="category-gallery__item">
+              <img
+                src="./assets/img/category-comedy.jpg"
+                alt=""
+                class="category__img"
+              />
+              <div class="category-info">
+                <h3 class="category-info__title">
+                  Comedy
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.5 7C13.5 10.5899 10.5899 13.5 7 13.5C3.41015 13.5 0.5 10.5899 0.5 7C0.5 3.41015 3.41015 0.5 7 0.5C10.5899 0.5 13.5 3.41015 13.5 7Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.77109 5L9.99966 7L7.77109 9M4 7.00036H10H4Z"
+                      stroke="white"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </h3>
+                <p class="category-info__desc">120 Podcasts Channel</p>
+              </div>
+            </div>
+          </div>
+          <button class="secondary-btn category__btn">All category</button>
+        </div>
+      </section>
+      <!-- popular  -->
+      <section class="popular">
+        <div class="container">
+          <!-- row-top  -->
+          <div class="row-top">
+            <img
+              src="./assets/img/decor-title.svg"
+              alt=""
+              class="popular__decor-title"
+            />
+            <h2 class="title popular__title">Our most popular episodes</h2>
+            <button class="secondary-btn popular__btn">All episodes</button>
+          </div>
+          <!-- episodes  -->
+          <div class="popular__episodes">
+            <div class="row g-3">
+              <!-- item 1  -->
+              <div class="col-lg-6 popular__episode-item">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="popular__media">
+                      <a href="#!">
+                        <img
+                          src="./assets/img/popular-episode-1.jpg"
+                          alt=""
+                          class="popular__img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="popular__info">
+                      <p class="popular__info-time">Episode3 - 1hr 25min</p>
+                      <a href="#!">
+                        <h3 class="popular__info-title">
+                          Should you get outboard audio gear?
+                        </h3>
+                      </a>
+                      <p class="popular__info-desc">
+                        Is hardware really worth it when it comes to podcasting?
+                        The answer is...it depends.
+                      </p>
+                      <a href="#!" class="popular__info-link"
+                        >Listen now
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                        >
+                          <circle cx="7" cy="7" r="7" fill="currentColor" />
+                          <path
+                            d="M9.85 6.9134C9.91667 6.95189 9.91667 7.04811 9.85 7.0866L5.65 9.51147C5.58333 9.54996 5.5 9.50185 5.5 9.42487V4.57513C5.5 4.49815 5.58333 4.45004 5.65 4.48853L9.85 6.9134Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item 2  -->
+              <div class="col-lg-6 popular__episode-item">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="popular__media">
+                      <a href="#!">
+                        <img
+                          src="./assets/img/popular-episode-2.jpg"
+                          alt=""
+                          class="popular__img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="popular__info">
+                      <p class="popular__info-time">Episode3 - 1hr 25min</p>
+                      <a href="#!">
+                        <h3 class="popular__info-title">
+                          Should you get outboard audio gear?
+                        </h3>
+                      </a>
+                      <p class="popular__info-desc">
+                        Is hardware really worth it when it comes to podcasting?
+                        The answer is...it depends.
+                      </p>
+                      <a href="#!" class="popular__info-link"
+                        >Listen now
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                        >
+                          <circle cx="7" cy="7" r="7" fill="currentColor" />
+                          <path
+                            d="M9.85 6.9134C9.91667 6.95189 9.91667 7.04811 9.85 7.0866L5.65 9.51147C5.58333 9.54996 5.5 9.50185 5.5 9.42487V4.57513C5.5 4.49815 5.58333 4.45004 5.65 4.48853L9.85 6.9134Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item 3  -->
+              <div class="col-lg-6 popular__episode-item">
+                <div class="row row-reverse">
+                  <div class="col-6">
+                    <div class="popular__media">
+                      <a href="#!">
+                        <img
+                          src="./assets/img/popular-episode-3.jpg"
+                          alt=""
+                          class="popular__img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="popular__info">
+                      <p class="popular__info-time">Episode3 - 1hr 25min</p>
+                      <a href="#!">
+                        <h3 class="popular__info-title">
+                          Should you get outboard audio gear?
+                        </h3>
+                      </a>
+                      <p class="popular__info-desc">
+                        Is hardware really worth it when it comes to podcasting?
+                        The answer is...it depends.
+                      </p>
+                      <a href="#!" class="popular__info-link"
+                        >Listen now
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                        >
+                          <circle cx="7" cy="7" r="7" fill="currentColor" />
+                          <path
+                            d="M9.85 6.9134C9.91667 6.95189 9.91667 7.04811 9.85 7.0866L5.65 9.51147C5.58333 9.54996 5.5 9.50185 5.5 9.42487V4.57513C5.5 4.49815 5.58333 4.45004 5.65 4.48853L9.85 6.9134Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item 4  -->
+              <div class="col-lg-6 popular__episode-item">
+                <div class="row row-reverse">
+                  <div class="col-6">
+                    <div class="popular__media">
+                      <a href="#!">
+                        <img
+                          src="./assets/img/popular-episode-4.jpg"
+                          alt=""
+                          class="popular__img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="popular__info">
+                      <p class="popular__info-time">Episode3 - 1hr 25min</p>
+                      <a href="#!">
+                        <h3 class="popular__info-title">
+                          Should you get outboard audio gear?
+                        </h3>
+                      </a>
+                      <p class="popular__info-desc">
+                        Is hardware really worth it when it comes to podcasting?
+                        The answer is...it depends.
+                      </p>
+                      <a href="#!" class="popular__info-link"
+                        >Listen now
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                        >
+                          <circle cx="7" cy="7" r="7" fill="currentColor" />
+                          <path
+                            d="M9.85 6.9134C9.91667 6.95189 9.91667 7.04811 9.85 7.0866L5.65 9.51147C5.58333 9.54996 5.5 9.50185 5.5 9.42487V4.57513C5.5 4.49815 5.58333 4.45004 5.65 4.48853L9.85 6.9134Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- dots  -->
+          <div class="popular__dots">
+            <div class="dot-item"></div>
+            <div class="dot-item"></div>
+            <div class="dot-item"></div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
