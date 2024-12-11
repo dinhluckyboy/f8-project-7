@@ -4,6 +4,12 @@
 
 /* main scss */
 
+/* main scss common */
+
+.justify-content-center {
+  justify-content: center;
+}
+
 /* header */
 
 header.header {
@@ -60,6 +66,7 @@ header.header.sticky {
 
 .hero {
   background-color: abstracts.$background;
+  padding-top: 68px;
   padding-bottom: 140px;
 }
 
@@ -342,7 +349,7 @@ header.header.sticky {
 .directory-media__decor {
   position: absolute;
   top: 56px;
-  left: 142px;
+  left: 50%;
   width: 287px;
   height: 287px;
   flex-shrink: 0;
